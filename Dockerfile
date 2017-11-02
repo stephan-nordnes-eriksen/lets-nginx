@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM arm32v7/nginx
 MAINTAINER Ash Wilson <smashwilson@gmail.com>
 
 #We need to install bash to easily handle arrays
